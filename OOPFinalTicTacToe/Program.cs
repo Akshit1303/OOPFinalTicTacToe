@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//OOP Final Project
+//Akshit Pathania and Crosby Ravert
 namespace OOPFinalTicTacToe
 {
 	class Program
