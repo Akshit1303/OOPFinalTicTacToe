@@ -79,12 +79,12 @@ namespace OOPFinalTicTacToe
 				var winner = WhoWins(board);
 				if (winner != null)
 				{
-					AnnounceResult(winner[0] + " is the winner!!", board);
+					AnnounceResult(winner[0] + " is the superior human being!!", board);
 					break;
 				}
 				if (IsBoardFull(board))
 				{
-					AnnounceResult("It's a tie!!!", board);
+					AnnounceResult("Get better at the game. Both of you!!", board);
 					break;
 				}
 
@@ -106,11 +106,11 @@ namespace OOPFinalTicTacToe
 			Console.WriteLine();
 			DrawBoard(board);
 
-			Console.ForegroundColor = ConsoleColor.DarkGreen;
+			Console.ForegroundColor = ConsoleColor.DarkCyan;
 			Console.WriteLine(message);
 			Console.ResetColor();
 
-			Console.Write("\nHit any key to continue!");
+			Console.Write("\nHit any key to continue to the menu!");
 			Console.CursorVisible = false;
 			Console.ReadKey();
 			Console.CursorVisible = true;
